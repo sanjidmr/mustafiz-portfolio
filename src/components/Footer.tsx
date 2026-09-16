@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
       const now = new Date();
       setTime(
         now.toLocaleTimeString('en-US', {
-          timeZone: 'Asia/Mymensingh',
+          timeZone: 'Asia/Dhaka',
           hour: '2-digit',
           minute: '2-digit',
           second: '2-digit',
